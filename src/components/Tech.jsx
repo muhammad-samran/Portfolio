@@ -4,6 +4,7 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
+import React from "react";
 
 const Tech = () => {
   return (

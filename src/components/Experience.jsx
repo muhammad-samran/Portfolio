@@ -9,6 +9,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { download, downloadHover, resume } from "../assets";
 import { textVariant } from "../utils/motion";
+import React from "react";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement

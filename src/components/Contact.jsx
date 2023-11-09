@@ -6,6 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { send, sendHover } from "../assets";
 import Thanks from "./Thanks";
+import React from "react";
 
 const Contact = () => {
   const formRef = useRef();
