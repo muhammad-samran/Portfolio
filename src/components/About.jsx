@@ -9,7 +9,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card custom-card-service"
     >
       <div
         options={{
@@ -53,7 +53,7 @@ const About = () => {
         engaging, and accessible to all users.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
